@@ -12,7 +12,9 @@ public function getConnection(){
 
 
         $this->con=null;
-        $this->con = new PDO("mysql:host=localhost;port=3306;dbname=crumblesChef", $username, $password);
+        $this->con = new PDO("mysql:host=localhost;port=3306;dbname=crumbleschef", $username, $password);
+
+
 
         $this->con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }catch(PDOException $e){
@@ -20,5 +22,5 @@ public function getConnection(){
     }
     return $this->con;
 }
-
 }
+

@@ -14,6 +14,10 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Uikit core CSS and JS-->
+    <link rel="stylesheet" href="./cssui/vendors/uikit.min.css" as="style">
+    <script src="./jsui/vendors/uikit.min.js"></script>
+
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
